@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Nithin Kumar Uppala</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: black;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: black;
+            padding: 20px 0;
+        }
+
+        .header-content {
+            text-align: center;
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+
+        .header-content p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        /* Projects Section Styles */
+        #projects {
+            padding: 40px 0;
+            background-color: #f9f9f9;
+        }
+
+        .work-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .work {
+            flex: 1;
+            min-width: calc(50% - 20px);
+            position: relative;
+        }
+
+        .work img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .layer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .layer h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .layer p {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .layer a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .layer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Button Styles */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+
+        /* Footer Styles */
+        .copyright {
+            padding: 10px 10px;
+            padding-bottom: 10px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            font-size: 0.875rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .work {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1 class="sub-title">Projects</h1>
+                <p>Here are some of the projects I have worked on:</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Project4.jpg" alt="To Do List">
+                    <div class="layer">
+                        <h3>To Do List</h3>
+                        <p>Created a functional and intuitive To-Do List application to manage tasks efficiently and implement dynamic task management features, including adding, deleting, and editing tasks in real-time.</p>
+                        <a href="https://github.com/nithinkumar-7/To-Do-List-App">View Project</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Project5.jpg" alt="Landing Page">
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <p>Designed and developed a visually appealing and user-friendly landing page to showcase key features and benefits. Simplified access to essential sections with intuitive links and buttons. Ensured compatibility across devices with a mobile-friendly layout. Highlighted core information and call-to-action elements to drive user engagement and conversions.</p>
+                        <a href="https://github.com/nithinkumar-7/Landing-Page">View Project</a>
+                    </div>
+                </div>
+                <!-- Add more projects here as needed -->
+            </div>
+            <!-- Button to go back to the main page -->
+            <a href="index.html" class="btn">Back to Home</a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Nithin Kumar Uppala. All rights reserved.</p>
+        </div>
+    </section>
+
+</body>
+</html>
